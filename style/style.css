@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:#808080;
+    color: pink;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+}
+.english{
+    margin-bottom: 50px;
+}
+.ulIcons{
+    list-style-type: none;
+}
+.icons{
+    margin-top: 5px;
+    padding: 0px 0px 0px 25px;
+}
+#ico1{
+    background:url(../img/c.svg) no-repeat;
+}
+#ico2{
+    background:url(../img/html.svg) no-repeat;
+}
+#ico3{
+    background:url(../img/css.svg) no-repeat;
+}
+#ico4{
+    background:url(../img/javascript.svg) no-repeat;
+}
+#ico5{
+    background:url(../img/github.svg) no-repeat;
+}
+#icoHeader1{
+    background:url(../img/phone.svg) no-repeat;
+}
+#icoHeader2{
+    background:url(../img/gmail.svg) no-repeat;
+}
+#icoHeader3{
+    background:url(../img/telegram.svg) no-repeat;
+}
+p{
+    padding-left: 25px;
+}
