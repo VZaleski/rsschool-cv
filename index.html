@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Curriculum vitae</title>
+</head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 class="header__title">Curriculum vitae</h1>
+                <h2 class="header__title__h2">Vladimir Zaleski</h2>
+                <div class="header__information">
+                    <img class="header__image" src="img/foto.jpg" alt="photo" width="180" height="240" >
+                    <ul class="ulIcons">
+                        <li class="icons" id="icoHeader1"><a class="link__contacts" href="#"> +375(33)627-86-58</a></li>
+                        <li class="icons" id="icoHeader2"><a class="link__contacts" href="#">zaleski.vladimir@gmail.com</a></li>
+                        <li class="icons" id="icoHeader3"><a class="link__contacts" href="#">+375(44)573-01-97</a></li>
+                        <li class="icons" id="icoHeader4"><a class="link__contacts"href="#">Vladimir Zaleski #3625</a></li>
+                    </ul>
+                </div>
+            </header>
+            <main class="main">
+                <section class="summary">
+                    <h2 class="section__title">Summary</h2>
+                    <p class="summary__text">My main goal at the moment is to become a frontend developer. My work experience is 1 year.</p>
+                </section>
+                <section class="skills">
+                    <h2 class="section__title">Skills</h2>
+                    <ul class="list__skills">
+                        <li class="list__skills__icons"><img src="img/html.svg" alt="HTML" width="60px" height="60px"></li>
+                        <li class="list__skills__icons"><img src="img/css-3.svg" alt="CSS" width="60px" height="60px"></li>
+                        <li class="list__skills__icons"><img src="img/javascript.svg" alt="javascript" width="60px" height="60px"></li>
+                        <li class="list__skills__icons"><img src="img/c-logo.svg" alt="C/C++" width="60px" height="60px"></li>
+                        <li class="list__skills__icons"><img src="img/github.svg" alt="GitHub" width="60px" height="60px"></li>
+                        <li class="list__skills__icons"><img src="img/figma.svg" alt="Figma" width="60px" height="60px"></li>
+                    </ul>
+                </section>
+                <section class="Mycode">
+                    <h2 class="section__title">Code</h2>
+                    <pre>
+                        <code>
+function towelSort (matrix) {
+    let array = [];
+    if( matrix === [] || matrix === [ ]){
+        return matrix = [[]];
+    } else{
+        for (let i = 0; i < matrix.length; i++) {
+            if(i % 2 === 0){
+                array = array.concat(matrix[i]);
+            } else{
+                array = array.concat(matrix[i].reverse());
+            }
+        }
+        return array;
+    }
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="education">
+                    <h2 class="section__title">Education</h2>
+                    <ul class="ulIcons">
+                        <li><a href="http://www.mgol3.mogilev.by/">Mogilev State Regional Lyceum No. 3 (2015)</a></li><br>
+                        <li><a href="https://www.bsuir.by/">Belarusian state University of Informatics and Radioelectronics (2019)</a></li>
+                    </ul>  
+                </section>
+                <section class="english">
+                    <h2 class="section__title">English</h2>
+                    <p>Elementary (А1)</p>
+                </section>
+            </main>
+            <footer class="footer">
+
+            </footer>
+        </div>
+    </body>
+</html>
