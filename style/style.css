@@ -124,3 +124,28 @@ p{
 code{
     font-size: 14px;
 }
+
+@media( max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+    code {
+        font-size: 9px;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    .list__skills {
+        width: 300px;
+    }
+
+    .header__information {
+        flex-direction: column;
+    }
+}
